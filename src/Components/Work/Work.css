@@ -1,0 +1,101 @@
+.work-container {
+  padding: 3rem;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.work-title {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.work-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#click {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #6666ff;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#click i {
+  font-size: 15px;
+}
+
+#click:hover {
+  background-color: #b3b3ff;
+}
+
+#click:active {
+  text-decoration: none;
+  background-color: #1a1aff;
+}
+
+/* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+  gap: 1rem; /* Space between items */
+  padding: 2rem;
+}
+
+/* Grid Item */
+.grid-item {
+  color: white;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto; /* Ensures the images are responsive */
+  max-height: 100px; /* Set a max height to prevent them from growing too large */
+  object-fit: contain; /* Keeps the aspect ratio intact */
+}
+
+.work-container {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.work-title {
+  font-size: 2rem;
+}
+
+.work-item {
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 736px) {
+  .work-container p {
+    font-size: 14px;
+    padding: 2px;
+  }
+}
